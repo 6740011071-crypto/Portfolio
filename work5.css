@@ -1,0 +1,24 @@
+v/* จัดปุ่มให้อยู่กึ่งกลางหน้าจอ */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* สไตล์ปุ่ม */
+button {
+  background-color: #007bff;   /* สีพื้นหลัง */
+  color: #ffffff;              /* สีตัวอักษร */
+  padding: 10px 20px;          /* padding */
+  border: none;                /* ไม่มีเส้นขอบ */
+  border-radius: 5px;          /* มุมโค้ง */
+  font-size: 16px;             /* ขนาดตัวอักษร */
+  cursor: pointer;             /* เมาส์เป็น pointer */
+}
+
+/* เมื่อเอาเมาส์ชี้ */
+button:hover {
+  background-color: #0056b3;   /* สีเข้มขึ้น */
+}
