@@ -2,6 +2,7 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
 
 <style>
@@ -67,8 +68,36 @@
   transform: scale(1.05);
   box-shadow: 0 15px 35px rgba(0,0,0,0.35);
 }
+@media (max-width: 768px) {
+
+  body{
+    height: auto;
+    padding: 40px 10px;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  .profile{
+    width: 150px;
+    height: 150px;
+  }
+
+  .btn{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+}
 
 </style>
+
 </head>
 
 <body>
@@ -81,7 +110,7 @@
 
 
     <a href="about.html" class="btn">About</a>
-    <a href="mywork.html" class="btn">Work</a>
+    <a href="mywork.html" class="btn">Exercises</a>
     <a href="contrack.html" class="btn">Contact</a>
   </div>
 
